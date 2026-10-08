@@ -5,7 +5,7 @@ A machine learning project that predicts whether a patient is diabetic based on 
 
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Technologies Used](#technologies-used)
+- [Libraries Used](#libraries-used)
 - [Data Preprocessing](#data-preprocessing)
 - [Machine Learning Model](#machine-learning-model)
 - [Process](#process)
@@ -35,14 +35,12 @@ The dataset contains several medical diagnostic features:
 The target variable is 
 - Outcome
 
-## Technologies Used
+## Libraries Used
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Jupyter Notebook
 
 ## Data Preprocessing
 The dataset was already divided into training and testing sets.
@@ -86,4 +84,4 @@ A Support Vector Machine (SVM) classifier with an RBF kernel was used.
 - How to visualize model predictions and errors
 
 ## Disclaimer
-This project is for educational purposes only and should not be used as a medical diagnostic tool.
+This project is for educational purposes only and should not be used as a medical diagnostic tool. You are free to use to understand the working of SVM.
