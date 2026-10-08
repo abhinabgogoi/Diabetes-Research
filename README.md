@@ -1,6 +1,19 @@
 # Diabetes Prediction Using SVM
 A machine learning project that predicts whether a patient is diabetic based on diagnostic measurements using a Support Vector Machine (SVM) classifier.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Technologies Used](#technologies-used)
+- [Data Preprocessing](#data-preprocessing)
+- [Machine Learning Model](#machine-learning-model)
+- [Process](#process)
+- [Model Evaluation](#model-evaluation)
+- [Visualizations](#visualizations)
+- [What I Learned](#what-i-learned-through-this-project)
+- [Disclaimer](#disclaimer)
+
 ## Overview
 This project uses the Diabetes Dataset from Kaggle to build a binary classification model.
 The project covers data preprocessing, feature scaling, model training, prediction, evaluation, and visualization.
@@ -47,12 +60,24 @@ A Support Vector Machine (SVM) classifier with an RBF kernel was used.
 5. A classifier SVM model is defined/created with RBF kernel, c=1 and gamma = 1 and the training data is added to train the data
 6. Finally after the model is trained and we can use the model for prediction
 
+## Visualizations
+### Diabetes vs Non-Diabetes Patients
+![Diabetes vs Non-Diabetes Patients](Visualization/Diabetes%20vs%20Non-Diabetes%20patients.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](Visualization/Correlation%20Heatmap.png)
+
+### Correlation with Outcome
+![Correlation with Outcome](Visualization/Correlation%20with%20Outcome.png)
+
+### Accuracy
+![Accuracy](Visualization/Accuracy.jpg)
 
 ## Model Evaluation
 - Accuracy on training data: 99.28 %
 - Accuracy on test data: 95.67 %
 
-## What I Learned Through this project:
+## What I Learned Through this project
 - How to preprocess a dataset for machine learning
 - How train/test splitting works
 - Why feature scaling is important for SVM
